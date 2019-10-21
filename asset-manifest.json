@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/wini-cari-landingpage/static/css/main.363ae5f0.chunk.css",
+    "main.js": "/wini-cari-landingpage/static/js/main.27657f6c.chunk.js",
+    "main.js.map": "/wini-cari-landingpage/static/js/main.27657f6c.chunk.js.map",
+    "runtime-main.js": "/wini-cari-landingpage/static/js/runtime-main.3968ab8d.js",
+    "runtime-main.js.map": "/wini-cari-landingpage/static/js/runtime-main.3968ab8d.js.map",
+    "static/js/2.d03c0aa7.chunk.js": "/wini-cari-landingpage/static/js/2.d03c0aa7.chunk.js",
+    "static/js/2.d03c0aa7.chunk.js.map": "/wini-cari-landingpage/static/js/2.d03c0aa7.chunk.js.map",
+    "index.html": "/wini-cari-landingpage/index.html",
+    "precache-manifest.848857636a13423781935f9ed77282e1.js": "/wini-cari-landingpage/precache-manifest.848857636a13423781935f9ed77282e1.js",
+    "service-worker.js": "/wini-cari-landingpage/service-worker.js",
+    "static/css/main.363ae5f0.chunk.css.map": "/wini-cari-landingpage/static/css/main.363ae5f0.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3968ab8d.js",
+    "static/js/2.d03c0aa7.chunk.js",
+    "static/css/main.363ae5f0.chunk.css",
+    "static/js/main.27657f6c.chunk.js"
+  ]
+}
