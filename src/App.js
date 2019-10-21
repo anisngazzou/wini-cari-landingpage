@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu';
+import {
+  Route,
+  HashRouter
+}from "react-router-dom";
+import Home from './components/Home';
+import Swiper from './components/Service';
+import Quotes from'./components/Quotes';
+import ContactForm from './components/ContactForm';
 
-function App() {
+class App extends React.Component {
+ 
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+       <HashRouter>
+         <div>
+            <Menu />
+          <div  className="content">
+              <Route exact path="/" component={Home}/>
+              <Route path="/Service" component={Swiper}/> 
+              <Route path="/Equipe" component={Quotes}/>
+              <Route path="/Contact" component={ContactForm}/>  
+           </div>
+         </div>
+       </HashRouter>
     </div>
   );
-}
+}}
 
 export default App;
+
+  
